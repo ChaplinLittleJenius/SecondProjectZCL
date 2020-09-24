@@ -126,3 +126,23 @@
 抄袭文路径：C:\Users\Master\Desktop\学习资料\MyProject\src\text\orig_0.8_del.txt
 文章相似度：0.37
 
+鍘熸枃璺緞锛歴rc/text/orig.txt
+鎶勮鏂囪矾寰勶細src/text/orig_0.8_add.txt
+鏂囩珷鐩镐技搴︼細0.83
+
+鍘熸枃璺緞锛歴rc/text/orig.txt
+鎶勮鏂囪矾寰勶細src/text/orig_0.8_del.txt
+鏂囩珷鐩镐技搴︼細0.81
+
+鍘熸枃璺緞锛歴rc/text/orig.txt
+鎶勮鏂囪矾寰勶細src/text/orig_0.8_dis_1.txt
+鏂囩珷鐩镐技搴︼細0.97
+
+鍘熸枃璺緞锛歴rc/text/orig.txt
+鎶勮鏂囪矾寰勶細src/text/orig_0.8_dis_10.txt
+鏂囩珷鐩镐技搴︼細0.84
+
+鍘熸枃璺緞锛歴rc/text/orig.txt
+鎶勮鏂囪矾寰勶細src/text/orig_0.8_dis_15.txt
+鏂囩珷鐩镐技搴︼細0.67
+
