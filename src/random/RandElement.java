@@ -22,9 +22,9 @@ public class RandElement {
         } else if (range == 1) {
             return getIntegerOperatorNum(range);
         }
-        int isInterger = (int) (Math.random() * 2);
+        int isInteger = (int) (Math.random() * 2);
         // 生成整数
-        if (isInterger == 1) {
+        if (isInteger == 1) {
             return getIntegerOperatorNum(range);
         } else {
             int isProperFraction = (int) (Math.random() * 2);
@@ -56,7 +56,7 @@ public class RandElement {
      * @return 随机数
      */
     public int getRandomNum(int range) {
-        return (int) (Math.random() * range);
+        return (int) (Math.random() * range) + 1;
     }
 
     /**

@@ -10,8 +10,6 @@ public class Expression {
     private String answer;
     // 用于查重
     private String[] flagExprssion;
-    // 用于标识该表达式是否重复
-    private int flag = 0;
 
     public String[] getOperatorNum() {
         return operatorNum;
@@ -48,11 +46,17 @@ public class Expression {
         Arrays.fill(flagExprssion, null);
     }
 
+    /**
+     * 获取字符串表达式
+     *
+     * @return 表达式
+     */
     public String getExpression() {
         // 以字符串返回表达式
         StringBuilder expression = new StringBuilder();
         int i = 0;
         int j = 0;
+
         if (operator[j] != null) {
             expression.append(operator[j]);
         }
@@ -60,8 +64,7 @@ public class Expression {
         while (operatorNum[i] != null) {
             expression.append(operatorNum[i++]);
             if (operator[j] != null) {
-                expression.append(operator[j]);
-                j++;
+                expression.append(operator[j++]);
             } else {
                 break;
             }
@@ -75,6 +78,11 @@ public class Expression {
         return expression.toString();
     }
 
+    /**
+     * 获取字符串数组形式的表达式
+     *
+     * @return 字符串数组形式的表达式
+     */
     public String[] getStringArrayExpression() {
         String[] expression = new String[9];
         int i = 0;

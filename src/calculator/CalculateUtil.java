@@ -95,9 +95,9 @@ public class CalculateUtil {
     }
 
     /**
-     * 获取假分数的整数部分
+     * 获取带分数的整数部分
      *
-     * @param fraction 假分数
+     * @param fraction 带分数
      * @return 整数部分
      */
     public String getFractionInt(String fraction) {
@@ -131,7 +131,7 @@ public class CalculateUtil {
      * @param denominator2 分母2
      * @return 最小公倍数
      */
-    public Integer getLcm(Integer denominator1, Integer denominator2) {
+    public Integer getLCM(Integer denominator1, Integer denominator2) {
         if (denominator1.equals(denominator2)) {
             return denominator1;
         }
@@ -217,7 +217,7 @@ public class CalculateUtil {
      */
     public String calculate(int flag, Integer leftDenominator, Integer leftNumerator, Integer rightDenominator, Integer rightNumerator) {
         // 获取左操作数分母和右操作数的最小公倍数
-        Integer lcm = getLcm(leftDenominator, rightDenominator);
+        Integer lcm = getLCM(leftDenominator, rightDenominator);
         // 结果分子
         Integer newNumerator = 0;
         // 根据flag进行不同的计算

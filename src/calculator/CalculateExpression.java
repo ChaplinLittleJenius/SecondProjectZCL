@@ -12,7 +12,7 @@ public class CalculateExpression {
      *
      * @param expression 表达式
      */
-    public void getExpValue(Expression expression) {
+    public void getExpressionAnswer(Expression expression) {
         // 获得逆波兰表达式
         String[] rpn = calculateUtil.getRPN(expression);
         expression.setAnswer(calculateRPN(rpn));
