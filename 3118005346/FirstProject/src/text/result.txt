@@ -1,0 +1,148 @@
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_15.txt
+文章相似度：0.67
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_15.txt
+文章相似度：0.67
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_15.txt
+文章相似度：0.67
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_del.txt
+文章相似度：0.81
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_1.txt
+文章相似度：0.97
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_del.txt
+文章相似度：0.81
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_1.txt
+文章相似度：0.97
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_10.txt
+文章相似度：0.84
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_15.txt
+文章相似度：0.67
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_1.txt
+文章相似度：0.97
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_del.txt
+文章相似度：0.81
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_1.txt
+文章相似度：0.97
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_10.txt
+文章相似度：0.84
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_15.txt
+文章相似度：0.67
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_del.txt
+文章相似度：0.81
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_1.txt
+文章相似度：0.97
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_10.txt
+文章相似度：0.84
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_15.txt
+文章相似度：0.67
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_del.txt
+文章相似度：0.81
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_1.txt
+文章相似度：0.97
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_10.txt
+文章相似度：0.84
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_15.txt
+文章相似度：0.67
+
+ԭ��·����C:\Users\Master\Desktop\ѧϰ����\MyProject\src\text\orig_0.8_add.txt
+��Ϯ��·����C:\Users\Master\Desktop\ѧϰ����\MyProject\src\text\orig_0.8_del.txt
+�������ƶȣ�0.37
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_add.txt
+文章相似度：0.83
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_del.txt
+文章相似度：0.81
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_1.txt
+文章相似度：0.97
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_10.txt
+文章相似度：0.84
+
+原文路径：src/text/orig.txt
+抄袭文路径：src/text/orig_0.8_dis_15.txt
+文章相似度：0.67
+
