@@ -44,6 +44,6 @@ public class MyTest {
 
     @Test
     public void testCheckAnswer() throws IOException {
-        Util.checkAnswer("src\\txt\\UserAnswer.txt","src\\txt\\Answers.txt","src\\txt\\Grade.txt");
+        Util.checkAnswer("src\\txt\\Exercises.txt","src\\txt\\Answers.txt","src\\txt\\Grade.txt");
     }
 }

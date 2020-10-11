@@ -17,9 +17,7 @@ public class Main {
                 answerPath = args[i+1];
             }
         }
-        System.out.println("expresionNum=" + expresionNum + ",operatorNumRange" + operatorNumRange);
         Util.doMain(expresionNum, operatorNumRange, exercisesPath, answerPath);
-
     }
 
 

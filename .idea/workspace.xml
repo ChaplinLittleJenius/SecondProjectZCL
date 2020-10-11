@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e96680a-0eb7-48e0-a4fb-fe65f55cf2fc" name="Default Changelist" comment="" />
+    <list default="true" id="8e96680a-0eb7-48e0-a4fb-fe65f55cf2fc" name="Default Changelist" comment="    del():删除文件">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/txt/Grade.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Grade.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/txt/UserAnswer.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="SvnConfiguration">
@@ -71,6 +78,7 @@
       <workItem from="1600956475468" duration="23000" />
       <workItem from="1600956505610" duration="718000" />
       <workItem from="1600960639160" duration="85000" />
+      <workItem from="1602419744445" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="del():删除文件">
       <created>1600960688871</created>
@@ -100,13 +108,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="del():删除文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="del():删除文件" />
+    <MESSAGE value="    del():删除文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="    del():删除文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="688" y="173" key="FileChooserDialogImpl" timestamp="1600956848971">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="688" y="173" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1600956848971" />
+    <state x="642" y="316" key="Github.ShareDialog" timestamp="1602419952874">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="642" y="316" key="Github.ShareDialog/0.0.1549.831@0.0.1549.831" timestamp="1602419952874" />
     <state x="367" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600960692931">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

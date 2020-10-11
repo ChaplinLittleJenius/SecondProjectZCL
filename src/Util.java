@@ -55,7 +55,7 @@ public class Util {
         for (int i = 0; i < expressionNum; i++) {
             System.out.print("第" + (i + 1) + "题：");
             System.out.println(exercises[i] + " = " + answers[i]);
-            exercisesWriter.write((i + 1) + "." + exercises[i] + "\n");
+            exercisesWriter.write((i + 1) + "." + exercises[i] + "=\n");
             answerWriter.write((i + 1) + "." + answers[i] + "\n");
         }
         // 刷新并关闭IO流
@@ -68,34 +68,38 @@ public class Util {
     /**
      * 判断答案对错
      *
-     * @param userAnswerPath 用户答案路径
+     * @param exercisesPath 用户答案路径
      * @param answersPath    正确答案路径
      * @param gradePath      成绩路径
      * @throws IOException IO异常
      */
-    public static void checkAnswer(String userAnswerPath, String answersPath, String gradePath) throws IOException {
-        File userAnswerFile = new File(userAnswerPath);
+    public static void checkAnswer(String exercisesPath, String answersPath, String gradePath) throws IOException {
+        File exercisesFile = new File(exercisesPath);
         File answersFile = new File(answersPath);
         File gradeFile = new File(gradePath);
-        if (!userAnswerFile.exists() || !answersFile.exists() || !gradeFile.exists()) {
+        if (!exercisesFile.exists() || !answersFile.exists() || !gradeFile.exists()) {
             throw new IOException("找不到指定的文件！");
         }
         List<String> correctList = new ArrayList<>();
         List<String> wrongList = new ArrayList<>();
 
-        BufferedReader userAnswerReader = new BufferedReader(new FileReader(userAnswerFile));
+        BufferedReader exercisesReader = new BufferedReader(new FileReader(exercisesFile));
         BufferedReader answerReader = new BufferedReader(new FileReader(answersFile));
         BufferedWriter gradeWriter = new BufferedWriter(new FileWriter(gradeFile, true));
 
-        String userAnswer, answer;
+        String exercisesAnswer, answer;
         int count = 0;
         while ((answer = answerReader.readLine()) != null) {
-            if ((userAnswer = userAnswerReader.readLine()) != null) {
+            if ((exercisesAnswer = exercisesReader.readLine()) != null) {
                 count++;
-                String[] str1 = userAnswer.split("\\.");
+                String[] str1 = exercisesAnswer.split("=");
+                if(str1.length <= 1){
+                    wrongList.add(count + "");
+                    continue;
+                }
                 String[] str2 = answer.split("\\.");
                 if ((str1[1].trim()).equals(str2[1].trim())) {
-                    correctList.add(str1[0]);
+                    correctList.add(str2[0]);
                 } else {
                     wrongList.add(str2[0]);
                 }
@@ -115,7 +119,7 @@ public class Util {
         System.out.println(stringBuilder.toString());
 
         // 刷新并关闭IO流
-        userAnswerReader.close();
+        exercisesReader.close();
         answerReader.close();
         gradeWriter.flush();
         gradeWriter.close();
